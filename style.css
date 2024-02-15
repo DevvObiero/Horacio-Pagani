@@ -1,2 +1,26 @@
-h1,h2{font-family:'Roboto', sans-serif;
+
+    @font-face {
+        font-family: 'myfont'; /* Use a custom name for your font */
+        src: url(Amagro.ttf) format('woff2'); /* Modern browsers */
+        font-weight: normal;
+        font-style: normal;
+      }
+
+h1{font-family:myfont, sans-serif;}
+
+@font-face {
+    font-family: 'myfont2'; /* Use a custom name for your font */
+    src: url(Montserrat-SemiBold) format('woff2'); /* Modern browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h2{font-family:myfont2, sans-serif;}
+
+.img1{ height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
 
