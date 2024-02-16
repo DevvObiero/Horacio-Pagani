@@ -1,6 +1,6 @@
 body{font-family:'Roboto', sans-serif;
   background-color:black;
-  color:#FF5A09 
+  color:#FF5A09 ;
   }
   
   #main{background-color:#393939;
@@ -15,7 +15,7 @@ body{font-family:'Roboto', sans-serif;
   #img-div{background-color:#393939;
   padding:10px;}
   
-  img{max-width:100%}
+  img{max-width:100%;}
   
   #image{display:block;}
   
@@ -23,7 +23,7 @@ body{font-family:'Roboto', sans-serif;
   font-size:16px;}
   
   li{color:white;
-  font-size:26px}
+  font-size:26px;}
   
   .bold{color:#FF5A09;
   }
@@ -60,7 +60,7 @@ body{font-family:'Roboto', sans-serif;
   
   ul{max-width:1200px;
   
-  ;}
+  }
   
   li{margin:16px;
   text-align:justify;
