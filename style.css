@@ -1,8 +1,27 @@
-body{font-family:'Roboto', sans-serif;
-  background-color:black;
+body{background-color:black;
   color:#FF5A09 ;
   }
+  @font-face {
+    font-family: 'myFont';
+    src: url('fonts/Amagro.ttf') format('truetype');
+    /* You can add more font formats here for broader browser support */
+  }
   
+  h1 {
+    font-family: 'myFont', sans-serif;
+    font-size: 6em;
+  }
+  
+  @font-face {
+    font-family: 'myFont2';
+    src: url('fonts/Montserrat-SemiBold.ttf') format('truetype');
+    /* You can add more font formats here for broader browser support */
+  }
+  
+  body {
+    font-family: 'myFont2', sans-serif;
+    font-size: 0.8em;
+  }
 
   #main{background-color:#393939;
   border-radius:10px;}
