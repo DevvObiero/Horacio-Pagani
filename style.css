@@ -3,6 +3,18 @@ body{font-family:'Roboto', sans-serif;
   color:#FF5A09 ;
   }
   
+
+  /* Use a specific class name and weight value */
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Replace <weight> with your desired value (e.g., 400 for regular) */
+  font-style: normal;
+}
+
+/* Apply the style to the h1 element using the class */
+
+
   #main{background-color:#393939;
   border-radius:10px;}
   
