@@ -37,7 +37,8 @@ body{background-color:black;
   #img-div{background-color:#393939;
   padding:10px;}
   
-  img{max-width:100%;}
+  img{max-width:100%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
   
   #image{display:block;}
   
