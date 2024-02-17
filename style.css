@@ -10,6 +10,8 @@ body{background-color:black;
   h1 {
     font-family: 'myFont', sans-serif;
     font-size: 6em;
+    color: #FF5A09;
+    text-shadow: 2px 2px 4px #000000;
   }
   
   @font-face {
